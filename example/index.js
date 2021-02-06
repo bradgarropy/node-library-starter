@@ -1,4 +1,4 @@
 const example = require("../.")
 
 console.log(example)
-example()
+example("Brad")
