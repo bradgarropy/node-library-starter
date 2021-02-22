@@ -22,11 +22,8 @@ jobs:
               run: npm run format
             - name: "📤 commit"
               run: |
-                  echo ${{github.ref}}
-                  echo ${{github.head_ref}}
-                  echo ${{github.base_ref}}
                   git config user.name github-actions
                   git config user.email github-actions@github.com
                   git add .
                   git commit -m "lint and format."
-                  git push origin ${{ github.ref }}
+                  git push origin ${{ github.head_ref }}
