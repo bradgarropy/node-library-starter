@@ -28,10 +28,3 @@ jobs:
                   commit_message: lint and format.
                   commit_user_name: bg-bot
                   commit_user_email: actions@github.com
-
-              # run: |
-              #     git config user.name "Brad Garropy"
-              #     git config user.email "bradgarropy@gmail.com"
-              #     git add .
-              #     git commit -m "lint and format."
-              #     git push
