@@ -1,8 +1,8 @@
 const sayHello = (name = "world"): string => {
-    const message = `Hello, ${name}!`;
-    console.log(message);
+    const message = `Hello, ${name}!`
+    console.log(message)
 
-    return        message;
+    return message
 }
 
-export     =      sayHello;
+export = sayHello
