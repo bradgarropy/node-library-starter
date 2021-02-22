@@ -23,6 +23,10 @@ jobs:
             - name: "💾 format"
               run: npm run format
             - name: "📤 commit"
-              uses: stefanzweifel/git-auto-commit-action@v4.9.0
-              with:
-                  commit_message: "lint and format."
+              run: |
+                  git add .
+                  git commit -m "lint and format."
+                  git push
+              # uses: stefanzweifel/git-auto-commit-action@v4.9.0
+              # with:
+              #     commit_message: "lint and format."

@@ -34,7 +34,7 @@
         "start": "tsc --watch",
         "build": "tsc",
         "lint": "eslint --fix .",
-        "format": "prettier --write .",
+        "format": "prettier --write --list-different .",
         "test": "jest --passWithNoTests",
         "test:watch": "jest --passWithNoTests --watch",
         "prepare": "tsc"
