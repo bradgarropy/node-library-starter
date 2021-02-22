@@ -24,6 +24,8 @@ jobs:
               run: npm run format
             - name: "📤 commit"
               run: |
+                  git config user.name "Brad Garropy"
+                  git config user.email "bradgarropy@gmail.com"
                   git add .
                   git commit -m "lint and format."
                   git push
