@@ -1,4 +1,9 @@
 {
+    "husky": {
+        "hooks": {
+            "pre-commit": "npm test"
+        }
+    },
     "name": "@bradgarropy/node-library-starter",
     "version": "1.2.0",
     "description": "🟢 node library starter",
