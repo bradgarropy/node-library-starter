@@ -1,6 +1,6 @@
 const config = {
-    "*": ["npm run format:fix"],
-    "*.js": ["npm run lint:fix"],
+    "*.{css, html, json, md, yml}": ["npm run lint:fix"],
+    "*.{js, jsx, ts, tsx}": ["npm run lint:fix", "npm run format:fix"],
 }
 
 module.exports = config
