@@ -3,7 +3,7 @@ const sayHello = (name = "world"): string => {
     console.log(message)
     const foo = 2
 
-    return        message;
+    return           message;
 }
 
 export = sayHello
