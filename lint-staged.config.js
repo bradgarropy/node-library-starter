@@ -1,6 +1,6 @@
 const config = {
-    "*.js": ["npm run lint:fix"],
     "*": ["npm run format:fix"],
+    "*.js": ["npm run lint:fix"],
 }
 
 module.exports = config
