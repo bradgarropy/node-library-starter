@@ -39,6 +39,7 @@
         "format:fix": "prettier --write .",
         "test": "jest --passWithNoTests",
         "test:watch": "jest --passWithNoTests --watch",
+        "contributors": "all-contributors generate",
         "prepare": "tsc"
     },
     "dependencies": {
@@ -50,6 +51,7 @@
         "@types/jest": "^26.0.20",
         "@typescript-eslint/eslint-plugin": "^4.14.2",
         "@typescript-eslint/parser": "^4.14.2",
+        "all-contributors-cli": "^6.20.0",
         "babel-eslint": "^10.1.0",
         "eslint": "^7.19.0",
         "eslint-config-prettier": "^7.1.0",
