@@ -18,7 +18,9 @@
             "profile": "https://bradgarropy.com",
             "contributions": [
                 "code",
-                "doc"
+                "doc",
+                "test",
+                "infra"
             ]
         }
     ]
