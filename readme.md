@@ -1,5 +1,6 @@
 # 🟢 node library starter
 
+[![contributing][contributing-badge]][contributing]
 [![contributors][contributors-badge]][contributors]
 
 _Starter for `node` libraries._
@@ -20,5 +21,7 @@ _Starter for `node` libraries._
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
+[contributing]: https://github.com/bradgarropy/node-library-starter/blob/master/contributing.md
 [contributors]: #-contributors
+[contributing-badge]: https://img.shields.io/badge/PRs-welcome-success?style=flat-square
 [contributors-badge]: https://img.shields.io/github/all-contributors/bradgarropy/node-library-starter?style=flat-square
