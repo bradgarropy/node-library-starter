@@ -24,6 +24,8 @@ jobs:
               run: npm run format
             - name: "🧪 test"
               run: npm run test
+            - name: "☂️ coverage"
+              uses: codecov/codecov-action@v1.2.1
             - name: "🚀 publish"
               run: npm publish --access public
               env:
