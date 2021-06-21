@@ -3,11 +3,11 @@
     "version": "1.2.0",
     "description": "🟢 node library starter",
     "keywords": [
-        "javascript",
-        "typescript",
         "node",
+        "typescript",
         "eslint",
         "prettier",
+        "jest",
         "starter"
     ],
     "homepage": "https://github.com/bradgarropy/node-library-starter",
