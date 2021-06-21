@@ -24,7 +24,6 @@
         "dist"
     ],
     "main": "dist/index.js",
-    "module": "dist/node-library-starter.esm.js",
     "types": "dist/types/index.d.ts",
     "repository": {
         "type": "git",

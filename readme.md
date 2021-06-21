@@ -1,5 +1,6 @@
 # 🟢 node library starter
 
+[![coverage][codecov-badge]][codecov]
 [![contributing][contributing-badge]][contributing]
 [![contributors][contributors-badge]][contributors]
 
@@ -21,7 +22,9 @@ _Starter for `node` libraries._
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
+[codecov]: https://app.codecov.io/gh/bradgarropy/node-library-starter
 [contributing]: https://github.com/bradgarropy/node-library-starter/blob/master/contributing.md
 [contributors]: #-contributors
+[codecov-badge]: https://img.shields.io/codecov/c/github/bradgarropy/node-library-starter?style=flat-square
 [contributing-badge]: https://img.shields.io/badge/PRs-welcome-success?style=flat-square
 [contributors-badge]: https://img.shields.io/github/all-contributors/bradgarropy/node-library-starter?style=flat-square
