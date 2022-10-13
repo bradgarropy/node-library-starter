@@ -1,23 +1,23 @@
 {
-    "include": ["src"],
     "compilerOptions": {
-        "module": "CommonJS",
-        "lib": ["dom", "esnext"],
-        "importHelpers": false,
         "declaration": true,
         "declarationDir": "dist/types",
-        "outDir": "dist",
-        "sourceMap": true,
-        "strict": true,
+        "esModuleInterop": true,
+        "forceConsistentCasingInFileNames": true,
+        "importHelpers": false,
+        "jsx": "react",
+        "lib": ["dom", "esnext"],
+        "module": "CommonJS",
+        "moduleResolution": "node",
+        "noEmit": false,
         "noImplicitReturns": true,
         "noFallthroughCasesInSwitch": true,
         "noUnusedLocals": true,
         "noUnusedParameters": true,
-        "moduleResolution": "node",
-        "jsx": "react",
-        "esModuleInterop": true,
+        "outDir": "dist",
         "skipLibCheck": true,
-        "forceConsistentCasingInFileNames": true,
-        "noEmit": false
-    }
+        "sourceMap": true,
+        "strict": true
+    },
+    "include": ["src"]
 }
