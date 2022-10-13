@@ -38,8 +38,8 @@
         "format": "prettier --check .",
         "format:fix": "prettier --write .",
         "typecheck": "tsc",
-        "test": "jest --passWithNoTests",
-        "test:watch": "jest --passWithNoTests --watch",
+        "test": "vitest --coverage",
+        "test:watch": "vitest --coverage --watch",
         "contributors": "all-contributors generate",
         "prepare": "npm run build"
     },
