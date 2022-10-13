@@ -5,4 +5,4 @@ const sayHello = (name = "world"): string => {
     return message
 }
 
-export = sayHello
+export {sayHello}

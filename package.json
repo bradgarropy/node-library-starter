@@ -1,48 +1,13 @@
 {
-    "name": "@bradgarropy/node-library-starter",
-    "version": "1.4.0",
-    "description": "🟢 node library starter",
-    "keywords": [
-        "node",
-        "typescript",
-        "eslint",
-        "prettier",
-        "vitest",
-        "starter",
-        "hacktoberfest"
-    ],
-    "homepage": "https://github.com/bradgarropy/node-library-starter",
-    "bugs": {
-        "url": "https://github.com/bradgarropy/node-library-starter/issues"
-    },
-    "license": "MIT",
     "author": {
         "name": "Brad Garropy",
         "email": "bradgarropy@gmail.com",
         "url": "https://bradgarropy.com"
     },
-    "files": [
-        "dist"
-    ],
-    "main": "dist/index.js",
-    "types": "dist/types/index.d.ts",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/bradgarropy/node-library-starter"
+    "bugs": {
+        "url": "https://github.com/bradgarropy/node-library-starter/issues"
     },
-    "scripts": {
-        "start": "tsc --watch",
-        "build": "tsc",
-        "lint": "eslint .",
-        "lint:fix": "eslint --fix .",
-        "format": "prettier --check .",
-        "format:fix": "prettier --write .",
-        "typecheck": "tsc",
-        "test": "vitest --coverage",
-        "test:watch": "vitest --coverage --watch",
-        "contributors": "all-contributors generate",
-        "prepare": "npm run build"
-    },
+    "description": "🟢 node library starter",
     "devDependencies": {
         "@bradgarropy/eslint-config": "^1.1.0",
         "@bradgarropy/eslint-config-typescript": "^1.0.0",
@@ -63,5 +28,41 @@
     },
     "engines": {
         "node": ">=10"
-    }
+    },
+    "files": [
+        "dist"
+    ],
+    "homepage": "https://github.com/bradgarropy/node-library-starter",
+    "keywords": [
+        "node",
+        "typescript",
+        "eslint",
+        "prettier",
+        "vitest",
+        "starter",
+        "hacktoberfest"
+    ],
+    "license": "MIT",
+    "main": "dist/index.js",
+    "name": "@bradgarropy/node-library-starter",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/bradgarropy/node-library-starter"
+    },
+    "scripts": {
+        "start": "tsc --watch",
+        "build": "tsc",
+        "lint": "eslint .",
+        "lint:fix": "eslint --fix .",
+        "format": "prettier --check .",
+        "format:fix": "prettier --write .",
+        "typecheck": "tsc",
+        "test": "vitest --coverage",
+        "test:watch": "vitest --coverage --watch",
+        "contributors": "all-contributors generate",
+        "prepare": "npm run build"
+    },
+    "type": "module",
+    "types": "dist/types/index.d.ts",
+    "version": "1.5.0"
 }

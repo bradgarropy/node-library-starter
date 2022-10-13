@@ -1,4 +1,4 @@
-const example = require("../.")
+import {sayHello} from "../dist/index.js"
 
-console.log(example)
-example("Brad")
+console.log(sayHello)
+sayHello("Brad")
