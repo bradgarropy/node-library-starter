@@ -20,5 +20,5 @@
         "strict": true,
         "target": "ES6"
     },
-    "include": ["src"]
+    "include": ["src", "tests", "example", "*.js", "*.ts"]
 }
