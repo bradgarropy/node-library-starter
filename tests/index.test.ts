@@ -1,4 +1,5 @@
 import {expect, test} from "vitest"
+
 import {sayHello} from "../src/index.js"
 
 test("says hello world", () => {
